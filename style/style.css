@@ -145,6 +145,9 @@
     color: #006A50;
     padding: 15px 30px;
   }
+  .nav-bar:hover{
+    background-color: aquamarine;
+  }
   .btn-primary{
     font-weight: 600;
     font-size: 18px;
@@ -153,6 +156,10 @@
     padding: 17px 34px;
     border: none;
     border-radius: 8px;
+  
+  }
+  .btn-primary:hover{
+    background-color: aquamarine;
   }
 /* shared-style */
 
@@ -252,15 +259,24 @@
         border: none;
         margin-left: 32px;
     }
+    .btn:hover{
+      background-color: aquamarine;
+    }
     
     .btn-2{
         background-color: #09A15C;
         margin-top: 45px;
     }
+    .btn-2:hover{
+      background-color: #5490F5;
+    }
     
     .btn-3{
         background-color: #FFC239;
     
+    }
+    .btn-3:hover{
+      background-color: #5490F5;
     }
     /* enter-button */
     .card-description{
