@@ -1,0 +1,293 @@
+/* font style  */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+  *{
+    margin: 0px;
+  }
+/* font style  */
+
+/* shared-style */
+#navigate{
+  margin: 10px;
+}
+  nav ul{
+    display: flex;
+    margin: 30px 125px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul li{
+    list-style: none; 
+  }
+  li a{
+    text-decoration: none;
+
+  }
+  .nav-right{
+    margin-right: 30px;
+  }
+  .nav-left{
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+  }
+  .nav-bar{
+    border-radius: 8px;
+    border-color: #006A50;
+    color: #006A50;
+    padding: 15px 30px;
+  }
+  .btn-primary{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+  }
+/* shared-style */
+
+.banner{
+    margin: 0px 160px;
+    width: 1260px 560px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+
+}
+/* child */
+.banner-title{
+    font-weight: 500px;
+    font-size: 24px;
+    color: #0E0E0E;
+    margin-bottom: 0px;
+}
+.banner-sub-title{
+    font-weight: 700px;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+/* child */
+
+/* father */
+.banner-text{
+    margin: 105px;
+    width: 622px 326px;
+}
+.banner-image{
+    width: 475px;
+    height: 400px;
+    margin: 80px;
+}
+/* 2nd section */
+
+    #future{
+        margin: 160px;
+        height: 500px;
+}
+    .vision-title{
+        font-weight: 700;
+        font-size: 40px;
+        color: #0E0E0E;
+    }
+    .vision-description{
+        font-weight: 400;
+        font-size: 16px;
+        color: #0E0E0E;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 0px 325px;
+        gap: 24px;
+        margin-top: 32px;
+    }
+    .card{
+        padding: 120px 32px;
+        border-radius: 16px;
+        width: 410px;
+        height: 275px;
+    }
+    .card-1{
+        background-color: #D5D6D8;
+    }
+    /* card-1 */
+    /* shared image style */
+    .image{
+        width: 62px;
+        height: 62px;
+        position: relative;
+        padding: 32px 314px 230px;
+    }
+    .card-2{
+        background-color: #C6E4D6;
+    }
+    .card-3{
+        background-color: #F7EBCF;
+    }
+    /* button */
+    .btn{
+        background-color: #5490F5;
+        color: white;
+        border-radius: 8px;
+        padding: 20px 11px;
+        margin-top: 24px;
+        width: 122px;
+        font-weight: 600;
+        font-size: 16px;
+        border: none;
+        margin-left: 32px;
+    }
+    
+    .btn-2{
+        background-color: #09A15C;
+        margin-top: 45px;
+    }
+    
+    .btn-3{
+        background-color: #FFC239;
+    
+    }
+    /* enter-button */
+    .card-description{
+        margin: 12px 32px 24px 32px;
+        font-weight: 400;
+        font-size: 16px;
+      
+    }
+    .card-title{
+        margin: 24px 32px 12px 32px;
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+    .imag{
+        margin-left: 32px;
+        margin-top: 0px;
+    }   
+    .vision-description{
+        margin-top: 24px;
+        margin-bottom: 32px;
+        font-weight: 400;
+        font-size: 16px;
+        
+    }
+    /* tomorrow */
+
+    
+ 
+
+
